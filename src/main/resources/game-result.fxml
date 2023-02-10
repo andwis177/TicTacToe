@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="418.0" prefWidth="323.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.games.controller.ResultController">
+   <children>
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#fffdcf" height="393.0" layoutX="14.0" layoutY="10.0" stroke="#a80000" strokeType="INSIDE" width="296.0" />
+      <Button fx:id="yesButton" layoutX="52.0" layoutY="332.0" mnemonicParsing="false" onAction="#nextGame" prefHeight="43.0" prefWidth="90.0" text="Yes">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="noButton" layoutX="181.0" layoutY="332.0" mnemonicParsing="false" onAction="#exit" prefHeight="43.0" prefWidth="90.0" text="No">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="52.0" layoutY="292.0" prefHeight="25.0" prefWidth="219.0" text="Rematch?" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <HBox fx:id="hbox" alignment="CENTER" layoutX="25.0" layoutY="25.0" prefHeight="252.0" prefWidth="274.0">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="252.0" fitWidth="267.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

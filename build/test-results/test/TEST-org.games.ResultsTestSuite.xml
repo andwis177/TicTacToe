@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.games.ResultsTestSuite" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-02-10T16:41:15" hostname="LAPTOP-6257JG67" time="0.038">
+  <properties/>
+  <testcase name="testDraw()" classname="org.games.ResultsTestSuite" time="0.027"/>
+  <testcase name="testWinByRow()" classname="org.games.ResultsTestSuite" time="0.002"/>
+  <testcase name="testWinByDiagonalNegative()" classname="org.games.ResultsTestSuite" time="0.003"/>
+  <testcase name="testWinByColumn()" classname="org.games.ResultsTestSuite" time="0.002"/>
+  <testcase name="testWinByDiagonal()" classname="org.games.ResultsTestSuite" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
