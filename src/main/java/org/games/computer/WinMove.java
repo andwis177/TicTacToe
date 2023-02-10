@@ -76,7 +76,7 @@ public class WinMove {
                             squareSelect.set(1);
                         }
                         if ((board.get(6).getSymbol() == Symbol.X.getSymbol()) && !(board.get(2).isSet())) {
-                            squareSelect.set(102);
+                            squareSelect.set(2);
                         }
                         if ((board.get(8).getSymbol() == Symbol.X.getSymbol()) && !(board.get(0).isSet())) {
                             squareSelect.set(0);
@@ -84,15 +84,15 @@ public class WinMove {
                     }
                     case 5 -> {
                         if ((board.get(8).getSymbol() == Symbol.X.getSymbol()) && !(board.get(2).isSet())) {
-                            squareSelect.set(102);
+                            squareSelect.set(2);
                         }
                     }
                     case 6 -> {
                         if ((board.get(7).getSymbol() == Symbol.X.getSymbol()) && !(board.get(8).isSet())) {
-                            squareSelect.set(108);
+                            squareSelect.set(8);
                         }
                         if ((board.get(8).getSymbol() == Symbol.X.getSymbol()) && !(board.get(7).isSet())) {
-                            squareSelect.set(107);
+                            squareSelect.set(7);
                         }
                     }
                 }
